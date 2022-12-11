@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Navigation Bar</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+
+<body>
+	<header>
+		<a href="#" class="logo">DIU</a>
+		<div class="mean-toggle"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="features.html">Features</a></li>
+				<li><a href="route.html">Schedules</a></li>
+				<li><a href="contact-Us.html">Contact Us</a></li>
+				<li><a href="login.html">Log-in/Sign-up</a></li>
+			</ul>
+		</nav>
+		<div class="clear"></div>
+	</header>
+
+
+
+	<br>
+	<!-- form design start  -->
+	<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+		<form action="progress.php" style=" background:#069370; padding: 4rem; border-radius: 1rem; color:#fff;"
+			method="POST">
+			<div>
+				<h1>DIU BUS</h1>
+				<br>Search Diu bus Tickets
+			</div>
+			<div style="padding:1rem;"><br>
+				<label>From</label>
+				<select name="From" style="padding: 0.5rem;">
+					<option value=" Campus">Campus</option>
+					<option value=" Saver">Saver</option>
+					<option value=" Ashulia">Ashulia</option>
+					<option value=" Uttara">Uttara</option>
+					<option value=" Mirpur">Mirpur</option>
+					<option value=" Dhanmondi">Dhanmondi</option>
+				</select>
+
+				<label>To</label>
+				<select name="To" style="padding: 0.5rem;">
+					<option value=" Campus">Campus</option>
+					<option value=" Saver">Saver</option>
+					<option value=" Ashulia">Ashulia</option>
+					<option value=" Uttara">Uttara</option>
+					<option value=" Mirpur">Mirpur</option>
+					<option value=" Dhanmondi">Dhanmondi</option>
+				</select>
+				<label>Shift</label>
+				<select name="Shift" style="padding: 0.5rem;">
+					<option value=" Shift1">Morning 7:15am</option>
+					<option value=" Shift2">Morning 10:00am</option>
+					<option value=" Shift3">Noon 12:30pm</option>
+					<option value=" Shift4">Noon 2:30pm</option>
+					<option value=" Shift5">After Noon 4:30pm</option>
+					<option value=" Shift6">Evening 6:00pm</option>
+				</select>
+
+			</div>
+			<div style="padding:1rem;">
+				<label>Route</label>
+				<select name="To" style="padding: 0.5rem;">
+					<option value=" R1">R1</option>
+					<option value=" R2">R2</option>
+					<option value=" R3">R3</option>
+					<option value=" R4">R4</option>
+					<option value=" R5">R5</option>
+					<option value=" R6">R6</option>
+					<option value=" R7">R7</option>
+					<option value=" R8">R8</option>
+					<option value=" R9">R9</option>
+					<option value=" R10">R10</option>
+				</select>
+			</div>
+
+			<div style="padding:1rem;">
+				<label> day:</label>
+				<input style="padding: 0.5rem;" type="date" name="day">
+			</div><br>
+			<input style="background-color: transparent; padding: 0.5rem 1rem; cursor: pointer; color:#fff; border-radius: 0.5rem; border: 1px solid #fff;"
+				type="submit" name="submit" value="Submit">
+
+		</form>
+	</div>
+
+
+
+
+
+</body>
+
+</html>
